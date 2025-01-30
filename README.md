@@ -22,7 +22,7 @@ cd amazon-product-scraper
 ```
 **Create and Activate a virtual environment (optional but recommended):**
 
-***Create a virtual environment***
+Create a virtual environment
 ```bash
 python -m venv venv
 ```
@@ -31,12 +31,12 @@ Activate the virtual environment:
 .\venv\Scripts\activate
 ```
 
+
 **Install the required dependencies:**
 ```bash
 pip install requests beautifulsoup4
 ```
 
-Usage
 **Scrape product links from a category page:**
 Run the script to scrape product links from a given Amazon category page:
 ```bash
