@@ -1,6 +1,6 @@
 # Amazon Product Scraping
 
-This repository contains Python scripts to scrape Amazon product details. The first script scrapes product links from a given category page, while the second script extracts details (such as product name, rating, price, and seller) from each individual product page.
+This repository contains Python scripts to scrape Amazon product details. The "scrape_product_links" script scrapes product links from a given category page, while the "scrape_product_details" script extracts details (such as product name, rating, price, and seller name) from each individual product page.
 
 ## Requirements
 
@@ -16,13 +16,13 @@ This repository contains Python scripts to scrape Amazon product details. The fi
 ```bash
 git clone https://github.com/techwithradhika/amazon-product-scraper.git
 ```
-
 Navigate to the project directory:
 ```bash
 cd amazon-product-scraper
 ```
+**Create and Activate a virtual environment (optional but recommended):**
 
-Create a virtual environment (optional but recommended):
+***Create a virtual environment***
 ```bash
 python -m venv venv
 ```
@@ -31,14 +31,14 @@ Activate the virtual environment:
 .\venv\Scripts\activate
 ```
 
-Install the required dependencies:
+**Install the required dependencies:**
 ```bash
 pip install requests beautifulsoup4
 ```
 
 Usage
 **Scrape product links from a category page:**
-Run the following script to scrape product links from a given Amazon category page (e.g., a list of products in a category):
+Run the script to scrape product links from a given Amazon category page:
 ```bash
 python scrape_product_links.py
 ```
@@ -51,3 +51,7 @@ After scraping the product links, run the second script to extract the details f
 python scrape_product_details.py
 ```
 This will process each link in amazon_product_links.csv, extract the product name, rating, price, and seller name, and save the details in amazon_product_details.csv.
+
+**view the Product details**
+
+Product details are at "amazon_product_details.csv" file.
