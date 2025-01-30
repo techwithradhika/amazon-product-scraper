@@ -1,6 +1,6 @@
 # Amazon Product Scraping
 
-This repository contains Python scripts to scrape Amazon product details. The "scrape_product_links" script scrapes product links from a given category page, while the "scrape_product_details" script extracts details (such as product name, rating, price, and seller name) from each individual product page.
+This repository contains Python scripts to scrape Amazon product details. The "scrape_product_links" script scrapes product links from a given category page, while the "scrape_product_details" script extracts details (such as product name, rating, price, and seller name) from each individual product page. Both scripts utilize the BeautifulSoup4 library to parse and extract data from HTML pages.
 
 ## Requirements
 
