@@ -16,7 +16,7 @@ This repository contains Python scripts to scrape Amazon product details. The "s
 ```bash
 git clone https://github.com/techwithradhika/amazon-product-scraper.git
 ```
-Navigate to the project directory:
+**Navigate to the project directory:**
 ```bash
 cd amazon-product-scraper
 ```
@@ -31,21 +31,22 @@ Activate the virtual environment:
 .\venv\Scripts\activate
 ```
 
-
 **Install the required dependencies:**
 ```bash
 pip install requests beautifulsoup4
 ```
 
 **Scrape product links from a category page:**
-Run the script to scrape product links from a given Amazon category page:
+
+Run the script to scrape product links from a given Amazon category page
 ```bash
 python scrape_product_links.py
 ```
 This will generate a CSV file named amazon_product_links.csv containing all the product links.
 
-Extract product details from the links:
-After scraping the product links, run the second script to extract the details for each product:
+**Extract product details from the links:**
+
+After scraping the product links, run the second script to extract the details for each product
 
 ```bash
 python scrape_product_details.py
