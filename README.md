@@ -37,17 +37,12 @@ pip install requests beautifulsoup4
 ```
 
 **Scrape product links from a category page:**
-
-Run the script to scrape product links from a given Amazon category page
 ```bash
 python scrape_product_links.py
 ```
 This will generate a CSV file named amazon_product_links.csv containing all the product links.
 
 **Extract product details from the links:**
-
-After scraping the product links, run the second script to extract the details for each product
-
 ```bash
 python scrape_product_details.py
 ```
