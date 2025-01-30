@@ -15,7 +15,7 @@ This repository contains Python scripts to scrape Amazon product details. The fi
 
 ```bash
 git clone https://github.com/techwithradhika/amazon-product-scraper.git
-'''
+```
 
 Navigate to the project directory:
 ```bash
